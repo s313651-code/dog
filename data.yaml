@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['Bulldog', 'Golden Retriever', 'Pomeranian']
+
+roboflow:
+  workspace: 313651s-workspace
+  project: dog_identification-crowa
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/313651s-workspace/dog_identification-crowa/dataset/1
